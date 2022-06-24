@@ -1,6 +1,6 @@
 # GetIP API
 
-🌎 获取公共 IP 地址 API 🔐
+⭐ 获取公共 IP 地址 API ⭐
 
 🔗 [GitLab (Homepage)](https://gitlab.soraharu.com/XiaoXi/GetIP-API) | 🔗 [GitHub](https://github.com/yanranxiaoxi/GetIP-API)
 
