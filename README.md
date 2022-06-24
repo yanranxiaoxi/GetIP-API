@@ -4,6 +4,8 @@
 
 🔗 [GitLab (Homepage)](https://gitlab.soraharu.com/XiaoXi/GetIP-API) | 🔗 [GitHub](https://github.com/yanranxiaoxi/GetIP-API)
 
+[![vercel](https://vercelbadge.soraharu.com/?app=getip-api)](https://getip.api.soraharu.com/)
+
 ## 📦️ 调用说明
 
 本 API 标准接口为 `https://getip.api.soraharu.com/`。
