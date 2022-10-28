@@ -1,11 +1,11 @@
 {
 	"functions": {
-		"index.php": {
+		"api/*.php": {
 			"runtime": "vercel-php@0.5.2"
 		}
 	},
 	"redirects": [
-		{ "source": "/api/(.*).php",  "destination": "/" },
+		{ "source": "/api/(.*)",  "destination": "/" },
 		{ "source": "/(.*).md",  "destination": "/" },
 		{ "source": "/.(.*)",  "destination": "/" }
 	],
