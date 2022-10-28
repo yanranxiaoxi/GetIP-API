@@ -1,15 +1,15 @@
 {
-  "functions": {
-    "api/*.php": {
-      "runtime": "vercel-php@0.5.1"
-    }
-  },
-  "redirects": [
-	{ "source": "/api/(.*)",  "destination": "/" },
-	{ "source": "/(.*).md",  "destination": "/" },
-	{ "source": "/.(.*)",  "destination": "/" }
-  ],
-  "rewrites": [
-    { "source": "/",  "destination": "/api/index.php" }
-  ]
+	"functions": {
+		"index.php": {
+			"runtime": "vercel-php@0.5.2"
+		}
+	},
+	"redirects": [
+		{ "source": "/(.*).php",  "destination": "/" },
+		{ "source": "/(.*).md",  "destination": "/" },
+		{ "source": "/.(.*)",  "destination": "/" }
+	],
+	"rewrites": [
+		{ "source": "/",  "destination": "/index.php" }
+	]
 }
