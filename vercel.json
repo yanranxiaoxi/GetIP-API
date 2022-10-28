@@ -5,11 +5,11 @@
 		}
 	},
 	"redirects": [
-		{ "source": "/(.*).php",  "destination": "/" },
+		{ "source": "/api/(.*).php",  "destination": "/" },
 		{ "source": "/(.*).md",  "destination": "/" },
 		{ "source": "/.(.*)",  "destination": "/" }
 	],
 	"rewrites": [
-		{ "source": "/",  "destination": "/index.php" }
+		{ "source": "/",  "destination": "/api/index.php" }
 	]
 }
